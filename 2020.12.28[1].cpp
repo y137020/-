@@ -1,17 +1,16 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <string.h>
 int main()
 {
 	int A = 0;
 	while (A < 10000)
 	{
 		A += 1;
-		printf("×Ô¶¯ÇÃ´úÂë²âÊÔ,µÚ%dÐÐ",A);
+		printf("è‡ªåŠ¨æ•²ä»£ç æµ‹è¯•,ç¬¬%dè¡Œ",A);
 		if (A < 5000)
-			printf(",Ç°°ë¶Î\n");
+			printf(",å‰åŠæ®µ\n");
 		else
-			printf(",ºó°ë¶Î\n");
+			printf(",åŽåŠæ®µ\n");
 	}
 	return 0;
 }
