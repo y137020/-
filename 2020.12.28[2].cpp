@@ -1,35 +1,34 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
-#include <string.h>
 int main()
 {
 	int A = 0;
-	printf("±³ÁËÆÕµØÂð£¿\n");
-	printf("±³ÁË´ò1£¬Ã»±³´ò0£º\n");
+	printf("èƒŒäº†æ™®åœ°å—ï¼Ÿ\n");
+	printf("èƒŒäº†æ‰“1ï¼Œæ²¡èƒŒæ‰“0ï¼š\n");
 	scanf_s("%d", &A);
 	while (A>=0&&A<=1)
 	{
 		if (A == 1)
-			printf("ÄãÆÕµØ¹ýÁË\n");
+			printf("ä½ æ™®åœ°è¿‡äº†\n");
 		else
-			printf("Äã±Ø²»¹ý\n");
+			printf("ä½ å¿…ä¸è¿‡\n");
 		return 0;
 	}
 	while (A < 0 || A>1)
 	{
-		printf("ËµÁË´ò1/0£¬ÖØÀ´\n");
+		printf("è¯´äº†æ‰“1/0ï¼Œé‡æ¥\n");
 		scanf_s("%d", &A);
 		while (A >= 0 && A <= 1)
 		{
 			if (A == 1)
-				printf("ÄãÆÕµØ¹ýÁË\n");
+				printf("ä½ æ™®åœ°è¿‡äº†\n");
 			else
-				printf("Äã±Ø²»¹ý\n");
+				printf("ä½ å¿…ä¸è¿‡\n");
 			return 0;
 		}
 		while (A < 0 || A>1)
 		{
-			printf("Éµ±Æ");
+			printf("å‚»é€¼");
 			return 0;
 		}
 	}
